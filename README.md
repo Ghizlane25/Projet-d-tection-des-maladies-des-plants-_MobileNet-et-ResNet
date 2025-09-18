@@ -60,7 +60,8 @@ Entraînement avec Adam (lr=1e-5, batch=32, epochs=10).
 Évaluation avec accuracy, F1-score, matrice de confusion, ROC-AUC.
 
 Résultats
-Modèle Accuracy (test) F1-score AUC Remarques ResNet-50 79 % 0.78 0.993 Bonne discrimination mais surapprentissage MobileNetV2 84.5 % 0.84 0.996 Plus léger, robuste, adapté aux mobiles
+Modèle Accuracy (test) F1-score AUC Remarques ResNet-50 79 % 0.78 0.993 Bonne discrimination mais surapprentissage
+MobileNetV2 84.5 %  0.84  0.996     Plus léger, robuste, adapté aux mobiles
 
 ##Analyse :
 

@@ -1,0 +1,65 @@
+Group: Ghizlane Ait Haddou et Hanane Iqli
+Projet :  Detection des malades des plantes
+lien de fichier source : https://www.kaggle.com/code/hananeiqli/resnet-et-mobilenet-avec-transfer-learning/edit/run/260645394
+###Bibliothèques principales utilisées :
+
+1-pandas: Bibliothèque pour la manipulation et l'analyse de données, offrant des structures de données comme les DataFrames.
+
+
+2-os : Module permettant d'interagir avec le système d'exploitation .
+
+3-seaborn : Bibliothèque de visualisation basée sur matplotlib, spécialisée dans les graphiques statistiques attrayants.
+
+4-matplotlib.pyplot : Interface de visualisation graphique pour créer des tracés statiques, animés ou interactifs.
+
+5-numpy : Bibliothèque pour le calcul numérique, fournissant des tableaux multidimensionnels et des fonctions mathématiques.
+
+6-math : Module fournissant des fonctions mathématiques standards.
+
+7-tensorflow (alias tf) : Framework open-source pour le machine learning et les réseaux de neurones.
+
+8-keras (depuis tensorflow) : API haut niveau pour construire et entraîner des modèles de deep learning.
+
+layers, callbacks (depuis tensorflow.keras):
+
+layers : Contient les types de couches pour les réseaux de neurones.
+
+9-callbacks : Utilisé pour personnaliser le comportement pendant l'entraînement.
+
+
+10-class_weight (depuis sklearn.utils): Utilisé pour calculer les poids des classes en cas de déséquilibre des données.
+
+11-shutil: Module pour les opérations sur les fichiers et les répertoires (copie, suppression).
+
+12-time : Module fournissant des fonctions liées au temps, comme les pauses ou le mesurage de la durée.
+
+13-json : Module pour encoder et décoder des données au format JSON.
+
+14-ImageDataGenerator (depuis tensorflow.keras.preprocessing.image) : Utilisé pour la préprocessing et l'augmentation des images.
+
+15-models, optimizers (depuis tensorflow.keras):
+
+models : Pour définir des architectures de modèles.
+
+optimizers : Contient les algorithmes d'optimisation comme Adam, SGD, etc.
+
+MobileNetV2, preprocess_input (depuis tensorflow.keras.applications.mobilenet_v2):
+
+16-MobileNetV2 : Architecture de réseau pré-entraînée.
+
+17-preprocess_input : Fonction de prétraitement des images pour MobileNetV2.
+
+18-EarlyStopping, ModelCheckpoint (depuis tensorflow.keras.callbacks): Callbacks pour arrêter l'entraînement précocement et sauvegarder les meilleurs modèles.
+
+19-classification_report, confusion_matrix, f1_score (depuis sklearn.metrics): Fonctions pour évaluer les performances des modèles de classification.
+
+20-pathlib : Module pour manipuler les chemins de fichiers de manière orientée objet.
+
+21-StratifiedShuffleSplit (depuis sklearn.model_selection) : Pour diviser les données en ensembles d'entraînement et de test de manière stratifiée.
+
+22-ResNet50 (depuis tensorflow.keras.applications): Architecture de réseau neuronal profond pré-entraînée.
+
+23-roc_curve, auc (depuis sklearn.metrics): Utilisés pour tracer les courbes ROC et calculer l'AUC.
+
+24-to_categorical (depuis tensorflow.keras.utils) : Convertit les étiquettes de classe en vecteurs one-hot.
+

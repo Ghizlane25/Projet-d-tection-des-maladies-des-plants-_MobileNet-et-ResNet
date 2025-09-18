@@ -1,0 +1,36 @@
+Groupe : Ghizlane Ait haddou et Hanane Iqli
+Projet :  Detection des malades des plantes
+
+# lien de code source : https://www.kaggle.com/code/hananeiqli/resnet-et-mobilenet-avec-transfer-learning/edit/run/260645394
+
+# Les étapes de Instruction et d'éxecution du projet
+
+### Prérequis
+- Python 3.8 ou version supérieure
+- pip (gestionnaire de paquets Python)
+
+### Installer les dépendances
+Les bibliothèques nécessaires sont listées dans le fichier requirements.txt.
+
+### Installation spécifique pour GPU (optionnel)
+- Installer TensorFlow avec support GPU
+pip install tensorflow[and-cuda]
+
+- Vérifier que TensorFlow détecte le GPU
+python -c "import tensorflow as tf; print(tf.config.list_physical_devices('GPU'))"
+
+### Télécharger les datasets
+Le code nécessite les datasets suivants :
+lien de dataset : https://www.kaggle.com/datasets/vipoooool/new-plant-diseases-dataset
+
+new-plant-diseases-dataset
+
+resnet50 weights : "/kaggle/input/resnet50/keras/default/1/resnet50_weights_tf_dim_ordering_tf_kernels_notop.h5"
+
+mobilenet weights : "/kaggle/input/mobilenet/keras/default/1/mobilenet_v2_weights_tf_dim_ordering_tf_kernels_1.0_224_no_top.h5"
+
+### Exécution du code
+Exécution sur notebook dans kaggle
+ 
+### Visualiser les résultats
+Les courbes de perte, précision ,les courbes de ROC-AUC les matrices de confusions
